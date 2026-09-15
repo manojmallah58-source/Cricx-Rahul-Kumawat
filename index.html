@@ -251,7 +251,7 @@
   </div>
 
   <div class="actions">
-    <a href="https://t.me/+rwZKMV0-L8wyOTll" target="_blank" onclick="verifyAccess()" class="btn-action">CLICK FOLLOW TELEGRAM</a>
+    <a href="https://t.me/%2BdXlyR7OpEJRlMGM1?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAb21jcAUVzaVwZG9mAmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp1o4j1pVQYQNdg-cWdS2UeNl2noFpnHnpRYPhSh2CdhejVXMi4afITb_rrW7_aem_akVcgrPr6l0fDhOBjH89tQ" target="_blank" onclick="verifyAccess()" class="btn-action">CLICK FOLLOW TELEGRAM</a>
     <div class="grid">
       <button onclick="location.reload()" class="small-btn"><i class="material-icons">refresh</i> REFRESH</button>
       <button onclick="shareLink()" class="small-btn"><i class="material-icons">share</i> SHARE</button>
@@ -306,7 +306,8 @@
 
   <script>
     const JSON_URL = "https://cricket-yoddha-2-o-json.vercel.app/links.json";
-    const TELEGRAM_LINK = "https://t.me/+rwZKMV0-L8wyOTll";
+    // Yahan popup ke liye naya link set kar diya hai
+    const TELEGRAM_POPUP_LINK = "https://t.me/+rwZKMV0-L8wyOTll";
 
     window.onload = () => {
       // Har baar page load/reload hone par 5 second baad popup aayega
@@ -366,7 +367,7 @@
 
     function goTelegram() {
       verifyAccess();
-      window.open(TELEGRAM_LINK, "_blank");
+      window.open(TELEGRAM_POPUP_LINK, "_blank");
     }
 
     function shareLink() {
